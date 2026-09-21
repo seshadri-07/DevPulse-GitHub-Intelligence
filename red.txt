@@ -1,0 +1,6 @@
+python --version
+pip --version
+java -version
+git --version
+node --version
+npm --version

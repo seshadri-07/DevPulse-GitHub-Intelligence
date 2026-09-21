@@ -1,0 +1,14 @@
+mcp>=1.0.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+langgraph>=0.2.0
+streamlit>=1.36.0
+ 
+# LLM backends — only need the one you actually use
+openai>=1.40.0      # used to talk to local Ollama via its OpenAI-compatible endpoint (default)
+groq>=0.9.0         # required only when using the Groq option
+ 
+ 
+# A2A stretch goal
+pydantic>=2.0.0
